@@ -1,0 +1,28 @@
+@import '../mixins';
+@import '../variables';
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  max-width: 1440px;
+  margin: auto;
+
+  .right {
+    display: flex;
+
+    @include breakpoint(md) {
+      margin-right: 12rem;
+    }
+  }
+
+  img {
+    width: 80px;
+  }
+
+  p {
+    color: $grey;
+    margin: auto;
+  }
+}

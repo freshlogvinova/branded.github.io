@@ -1,0 +1,11 @@
+@import '../mixins';
+@import '../variables';
+
+.progress-bar {
+  background-image: -webkit-linear-gradient(top, $orange-dark 0%, $orange 100%);
+  background-image: -o-linear-gradient(top, $orange-dark 0%, $orange 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from($orange-dark), to($orange));
+  background-image: linear-gradient(to bottom, $orange-dark 0%, $orange 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6704d', endColorstr='#f6764d', GradientType=0);
+  background-repeat: repeat-x;
+}

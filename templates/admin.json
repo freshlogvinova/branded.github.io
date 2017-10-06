@@ -1,0 +1,27 @@
+{
+  "title": "Admin",
+  "bg_color": "#f2f2f0",
+  "text_color": "#212121",
+  "logo": "../../assets/images/logo_tchop.png",
+  "headline": "Your own news app for your employees",
+  "top": "Powered by",
+  "img_top": "../../assets/images/top_logo_tchop_dark.svg",
+  "device": "../../assets/images/device_1.png",
+  "advantages" : [
+    {"title": "Reach out to your target group"},
+    {"title": "Curate what is important"},
+    {"title": "Combine internal with external contents"},
+    {"title": "Low maintenance costs with equal results"},
+    {"title": "Truly native app with your branding"}
+  ],
+  "button": {
+    "color": "#F6704D",
+    "text": "mehr erfahren",
+    "text_color": "#ffffff"
+  },
+  "try_it": "or <a href=\"mailto:support@tchop.io?subject=tchop demo&body=Hi, I would like to have a look at tchop. Please get in touch!\"><b>Try it for yourself</b></a>",
+  "footer": {
+    "love": "Made with &#10084; in Berlin",
+    "tchop": "<p>&copy; tchop GmbH 2017</p>"
+  }
+}

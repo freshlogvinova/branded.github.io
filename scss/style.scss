@@ -1,0 +1,23 @@
+@import 'bootstrap';
+@import 'bootstrap-theme';
+
+@import 'variables';
+@import 'mixins';
+@import 'atoms/buttons';
+@import 'atoms/color';
+@import 'atoms/text';
+@import 'atoms/progress';
+@import 'atoms/upload-button';
+@import 'molecules/header';
+@import 'molecules/footer';
+@import 'molecules/outer-main';
+@import 'molecules/main';
+@import 'molecules/inner-main';
+@import 'molecules/table';
+@import 'organisms/base';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+

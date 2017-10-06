@@ -1,0 +1,32 @@
+@import '../mixins';
+@import '../variables';
+
+article {
+  flex: 0 0 100%;
+  margin: 0 auto;
+  order: 2;
+  position: relative;
+
+  @include breakpoint(480px) {
+    background: url(/assets/images/device_1.png) no-repeat bottom left;
+    background-size: 800px 580px;
+    flex: 0 0 800px;
+    height: 640px;
+    width: 800px;
+  }
+
+  @include breakpoint(sm) {
+    margin: 0 0 0 100px;
+    order: 1;
+  }
+
+  iframe {
+    top: 16rem;
+    width: 245px;
+    height: 363px;
+    left: 27rem;
+    position: relative;
+    background-color: $white;
+    overflow-y: scroll;
+  }
+}

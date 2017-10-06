@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  .serif.big File Uploads
+  input(type='file', style='display: none', name='uploadFiles', id='uploadFiles', multiple)
+  div.buttons-block
+    a.button.orange(id='addFilesButton') Add files
+    a.button.orange(id='uploadAllFilesButton', style='margin-left:10px') Upload All
+  div.progress
+    div#progress.progress-bar(role='progressbar', style='width: 0%')
+  table#files.table
+  - var files = file;
+  div
+    for name in files
+      div.card
+        p.texa.small= name
+block otherScripts
+  script(src='../../assets/js/upload.js')
